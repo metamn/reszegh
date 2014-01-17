@@ -24,12 +24,4 @@ function rb_wp_title( $title, $sep ) {
 }
 add_filter( 'wp_title', 'rb_wp_title', 10, 2 );
 
-/*function rb_scripts() {
-	// Load our main stylesheet.
-	wp_enqueue_style( 'rb-style', get_stylesheet_uri() );
-
-	// Load the Internet Explorer specific stylesheet.
-	wp_enqueue_style( 'rb-ie', get_template_directory_uri() . '/assets/css/ie.css', array( 'rb-style', 'genericons' ), '20131205' );
-	wp_style_add_data( 'rb-ie', 'conditional', 'lt IE 9' );
-}
-add_action( 'wp_enqueue_scripts', 'rb_scripts' );*/
+register_nav_menu( 'primary', 'Primary Menu' );

@@ -1,5 +1,8 @@
 <article>
 	<header>
+		<?php
+			the_title();
+		?>
 	</header>
 
 	<div>

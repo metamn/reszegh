@@ -34,9 +34,4 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav>
 		</div>
-		<div>
-				<?php get_search_form(); ?>
-		</div>
 	</header>
-
-	<div>
